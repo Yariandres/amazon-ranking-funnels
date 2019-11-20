@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Turmeric Curcumin By Rite-Flex</title>
-
+  <title><!-- Dynamicly set --></title>
+  
   <!--Font awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -285,6 +285,16 @@
   </div>
   <script src="js/script.js"></script>
   <script src="js/modal.js"></script>
+
+  <script>
+
+  // dynamically adding brand name to title
+    var setTitle = (function () {
+      let branNane = document.querySelector('#vendor__name').innerText;
+      document.title = branNane;
+    })();
+
+  </script>
 </body>
 
 </html>
