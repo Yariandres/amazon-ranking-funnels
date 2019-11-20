@@ -174,12 +174,12 @@ button {
     margin-bottom: 43px;
 }
 
-.final-img #myImg{
-    margin: 43px 0 43px 0;  
+.final-img {
+    margin-top: 4rem;
 }
 
-img #myImg {
-    max-width: 70%;
+#myImg {
+    max-width: 60%;
     height: auto;
 }
 

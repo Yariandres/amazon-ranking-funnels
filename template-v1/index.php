@@ -68,7 +68,7 @@
       <p class="ctn-text text-center letter-spacing" id="unique-identifier">Ready to grab this great Amazon deal?</p>
 
       <div class="btn text-center">
-        <button id="modal-btn" class="btn-button">
+        <button id="modalBtn" class="btn-button">
           <span class="btn-text">Grab This Deal!</span>
         </button>
       </div>
@@ -253,14 +253,14 @@
 
     <!-- modal optin section five -->
     <div class="modal-body">
-      <h2 class="ctn-text text-center letter-spacing">Click the button to grab this deal!</h2>
+      <h2 class="ctn-text text-center letter-spacing">Act now! Click the button to grab this deal!</h2>
 
       <div class="btn text-center">
-        <a href="#unique-identifier">
-          <button id="modal-btn" class="btn-button">
+    
+          <button id="modal_Btn" class="btn-button">
             <span class="btn-text letter-spacing">Grab This Deal!</span>
           </button>
-        </a>
+        
       </div>
 
     </div>
@@ -284,16 +284,13 @@
     <!-- end of main container -->
   </div>
   <script src="js/script.js"></script>
-  <script src="js/modal.js"></script>
 
   <script>
-
   // dynamically adding brand name to title
     var setTitle = (function () {
       let branNane = document.querySelector('#vendor__name').innerText;
       document.title = branNane;
     })();
-
   </script>
 </body>
 
