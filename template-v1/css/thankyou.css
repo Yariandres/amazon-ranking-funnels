@@ -11,10 +11,15 @@ body {
     font-family: 'Fira Sans', sans-serif;
     background: #ededed;
     padding: 20px;
-    background-image: url(../img/backimg.jpg);
+    /* background-image: url(../img/backimg.jpg);
     background-size: 1000px;
-    background-repeat: repeat;  
+    background-repeat: repeat;   */
     
+}
+
+.letter-spacing {
+    letter-spacing: 0.5px;
+    line-height: 4.5rem;
 }
 
 .container {
@@ -29,7 +34,7 @@ body {
 }
 
 .header {
-    background: #c0392b;
+    background: #8D1217;
     border-radius: 10px 10px 0 0;
     height: auto;
     padding: 10px 20px 10px 20px;
