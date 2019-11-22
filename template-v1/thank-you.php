@@ -46,20 +46,19 @@
     <!-- main container  -->
         <div class="container">    
             <div class="header text-center">
-                <hr id="black-hr">
+                <hr>
                 <h1 class="main-head letter-spacing">Thanks for Grabbing This Deal!
                     <br>
                     <span class="thing-text letter-spacing">Here is your coupon code &amp; instructions:</span>
                 </h1>
-                <hr id="black-hr">
+                <hr>
             </div>
         
             <section>
                 <div class="paragraph">
         
                     <p class="letter-spacing">This page provides your coupon code and instructions on how to claim this Amazon.com deal. </p>
-                    <p>NOTE: Due to the limited nature of this Amazon deal, the coupon provided on this page must be used before the
-                        deadline shown below:</p>
+                    <p>NOTE: Due to the limited nature of this Amazon deal, the coupon provided on this page must be used before the deadline shown below:</p>
         
                     <div class="countdown">
                         <p id="demo" class="text-center"></p>
@@ -82,12 +81,11 @@
                 <div class="paragraph">
                     <p class="letter-spacing">
                         <b>2. Use this coupon code at checkout.</b> You will find your special coupon code below. You will enter this
-                        coupon code at checkout. When entered, this coupon will instantly apply the discount for buy 1 and get another
-                        at 10% Off!</p>
+                        coupon code at checkout. When entered, this coupon will instantly apply the discount for buy 1 at 15% Off!</p>
                 </div>
         
                 <div id="green-background">
-                    <p class="yell-txt text-center letter-spacing">COPY Your COUPON CODE:
+                    <p class="yell-txt text-center letter-spacing">COPY this COUPON CODE:
                         <b>
                             <br>
                             <span class="red-text letter-spacing">THANKYUO</span>

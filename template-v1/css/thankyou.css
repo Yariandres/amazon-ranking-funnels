@@ -37,7 +37,11 @@ body {
     background: #8D1217;
     border-radius: 10px 10px 0 0;
     height: auto;
-    padding: 10px 20px 10px 20px;
+    padding: 1rem 2rem;
+}
+
+.main-head {
+    padding: 2rem 0;
 }
 
 .thing-text {
@@ -67,14 +71,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 2px solid rgb(179, 178, 178);     
-}
-
-#black-hr {
-    background: black;
-    display: block;
-    height: 1px;
-    border: 0;    
+    border-top: 2px solid rgb(255, 255, 255);     
 }
 
 .paragraph {
