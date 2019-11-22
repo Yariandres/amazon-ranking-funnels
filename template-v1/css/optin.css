@@ -50,7 +50,7 @@ hr {
     display: block;
     height: 4px;
     border: 0;
-    border-top: 2px solid #ffffff;     
+    border-top: 2px solid #fff;     
 }
 
 p {
@@ -474,7 +474,7 @@ button {
         display: block;
         height: 1px;
         border: 0;
-        border-top: 2px solid black;     
+        border-top: 2px solid #fff;     
     }
 
     p {
