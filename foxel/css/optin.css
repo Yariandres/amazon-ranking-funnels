@@ -219,6 +219,34 @@ button {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.modal-images {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  padding-top: 10rem;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.918);
+}
+
+.modal-content-images {
+  background-color: #f4f4f4;
+  margin: auto;
+  padding: 10px;
+  height: auto;
+  width: 90%;
+  box-shadow: 0 5px 8px 0 rgba(0.2), 0 7px 20px 0 rgba(0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: 1s;
+}
+
+.model-box {
+  text-align: center;
+}
+
 .modal-content {
   background-color: #f4f4f4;
   margin: 5% auto;
@@ -336,7 +364,7 @@ button {
 }
 
 /* Add Animation */
-.modal-content,
+.modal-content-images,
 #caption {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
@@ -601,5 +629,10 @@ button {
   }
   .col-sm-12 {
     width: 100%;
+  }
+
+  .modal-content-images {
+    height: auto;
+    width: 40%;
   }
 }
