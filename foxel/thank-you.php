@@ -103,13 +103,12 @@
         
                 <!-- SUPER URL SECTION -->
         
-                <div class="btn text-center">
-                    <a href="https://www.amazon.co.uk/s/ref=sr_in_-2_p_6_16?fst=as%3Aoff&rh=n%3A65801031%2Ck%3ATurmeric+Curcumin+10%5Cc000mg%2Cp_6%3AA1YEPN8JHDSWMC&keywords=Turmeric+Curcumin+10%2C000mg&ie=UTF8">
+                <div class="btn text-center" id="display">                    
         
-                        <button class="btn-button">
-                            <span class="btn-text letter-spacing">Click Here To Vist amazon.com Page to Purchase This Deal</span>
-                        </button>
-                    </a>
+                    <button class="btn-button">
+                        <span class="btn-text letter-spacing">Click Here To Vist amazon.com Page to Purchase This Deal</span>
+                    </button>
+              
                 </div>
         
                 <!-- SUPER URL SECTION -->
@@ -129,6 +128,7 @@
         </div>
     
         <script src="js/timer.js"></script>
+        <script src="js/urlrotator.js"></script>
     </body>
     
 </html>
