@@ -22,9 +22,9 @@
     // -- Email capture FORM  --
     if (isset($_POST['email'])) {
         $from = $_POST['email'];
-        $to = 'yari.andres@gmail.com';
-        $subject = 'Turmeric Curcumin 10,000mg - UK Sign Up';
-        $body = 'Please send me more coupons';
+        $to = 'john@foxel.me';
+        $subject = 'Foxel Chefs knife - Sign Up';
+        $body = 'Good new! You have a new subscription:';
     
         if (!$_POST['email']) {
             $emailError = 'Please enter a valid email';
@@ -42,6 +42,7 @@
            echo "email not set";
     }    
 ?>
+
 
     <!-- main container  -->
         <div class="container">    

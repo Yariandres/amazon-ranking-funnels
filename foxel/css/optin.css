@@ -64,7 +64,7 @@ p {
 }
 
 .bullet-header {
-  background: var(--color-main);
+  background: #e01f26;
   color: white;
   padding: 4rem 0;
 }
@@ -92,7 +92,8 @@ img {
 /* Section one */
 
 .header {
-  background: var(--color-main);
+  background-color: #e01f26;
+
   border-radius: 10px 10px 0 0;
   height: auto;
   padding: 3rem 2rem 3rem 2rem;
@@ -420,7 +421,7 @@ button {
 }
 
 .section-seven {
-  background-color: var(--color-main);
+  background-color: #e01f26;
   padding: 10px;
   border-radius: 0 0 10px 10px;
 }
