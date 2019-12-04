@@ -1,0 +1,171 @@
+/* global styles */
+
+html {
+	font-size: 62.5%; /* sets the 1rem = to 10px */
+	margin: 0 0 0 10px 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background: #ededed;
+    padding: 20px;
+    /* background-image: url(../img/backimg.jpg);
+    background-size: 1000px;
+    background-repeat: repeat;   */
+    
+}
+
+.letter-spacing {
+    letter-spacing: 0.5px;
+    line-height: 4.5rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    background: white;
+    border-radius: 10px;    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header {
+    background: #8D1217;
+    border-radius: 10px 10px 0 0;
+    height: auto;
+    padding: 1rem 2rem;
+}
+
+.main-head {
+    padding: 2rem 0;
+}
+
+.thing-text {
+    font-weight: 100;
+}
+
+h1 {
+    color: white;
+    font-size: 1.9rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.2rem;
+    width: 100%;
+    height: auto;
+    text-align: center; 
+    line-height: 1.6;
+    color: #3d3b3b;   
+}
+
+hr {    
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid rgb(255, 255, 255);     
+}
+
+.paragraph {
+    padding: 10px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Section one */
+
+.countdown p {
+    color: #ffffff;
+}
+
+.countdown {
+    padding: 10px 10px;
+}
+
+#demo {
+    font-family: 'Orbitron', sans-serif;;
+    background: #363131;
+    font-weight: 900;
+    font-size: 24px;
+    width: 35%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 3px 1px #000000;
+    -moz-box-shadow: 0px 3px 1px #000000;
+    box-shadow: 0px 3px 1px #000000; 
+}
+
+.red-text {
+    color: #f4210b;
+    font-size: 2rem;
+}
+
+#green-background {
+	background: #4CAF50;
+	
+}
+
+.yell-txt {	
+    font-size: 1.8rem;
+    padding: 20px 0;
+    color: white;
+}
+
+.btn-button {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #DDC868;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.section-seven {
+    background-color: #312E37;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.section-seven p {
+    color: #fff;
+}
+
+.section-seven a {
+    color: rgb(231, 132, 18);
+    text-decoration: none;
+}
+
+@media screen and (min-width:640px) {
+
+    h1 {
+        color: white;
+        font-size: 2.8rem;
+        margin: 0;    
+    }
+
+    .header {
+        background: #c0392b;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    p {
+        font-size: 2.0rem;
+        line-height: 1.6;
+        color: #3d3b3b;
+    }
+}
+
+
+    
