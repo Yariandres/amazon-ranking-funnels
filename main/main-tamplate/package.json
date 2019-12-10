@@ -1,0 +1,22 @@
+{
+  "name": "nodesass-starter-template",
+  "version": "1.0.0",
+  "description": "A Node Sass stater kit start a new project with SASS.  ",
+  "main": "app.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/optin.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yariandres/node-sass-stater-template.git"
+  },
+  "author": "Yari Andres Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yariandres/node-sass-stater-template/issues"
+  },
+  "homepage": "https://github.com/Yariandres/node-sass-stater-template#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
