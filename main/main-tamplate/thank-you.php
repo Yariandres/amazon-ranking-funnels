@@ -3,27 +3,8 @@
 
 <head>
     <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '557340628381883');
-        fbq('track', 'PageView');
-      </script>
-      <noscript>
-        <img 
-          height="1" 
-          width="1" 
-          style="display:none" 
-          src="https://www.facebook.com/tr?id=557340628381883&ev=PageView&noscript=1"
-        />
-      </noscript>
-      <!-- End Facebook Pixel Code -->
+    
+    <!-- End Facebook Pixel Code -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,11 +25,11 @@
     <body>
 
 <?php 
-    // -- Email capture FORM  --
+    // -- Email capture FORM pinkyivy78@yahoo.com  --
     if (isset($_POST['email'])) {
         $from = $_POST['email'];
-        $to = 'john@foxel.me';
-        $subject = 'Foxel Chefs knife - Sign Up';
+        $to = 'pinkyivy78@yahoo.com';
+        $subject = 'Swimsuit Bella Boom - Sign Up';
         $body = 'Good new! You have a new subscription:';
     
         if (!$_POST['email']) {
@@ -107,18 +88,34 @@
                 <div class="paragraph">
                     <p class="letter-spacing">
                         <b>2. Use this coupon code at checkout.</b> You will find your special coupon code below. You will enter this
-                        coupon code at checkout. When entered, this coupon will instantly apply the discount for buy 1 at 15% Off!</p>
+                        coupon code at checkout. When entered, this coupon will instantly apply the discount for buy 1 at 30% Off!</p>
                 </div>
         
                 <div id="green-background">
-                    <p class="yell-txt text-center letter-spacing">COPY this COUPON CODE:
-                        <b>
-                            <br>
-                            <span class="red-text letter-spacing">THANKYUO</span>
-                        </b>
-                    </p>
+                    <p class="heading-text text-center letter-spacing" id="alert">Click the button to COPY this COUPON CODE:</p>                  
+                
+                    <div id="alertWrap">
+                        <!-- copied display here -->
+                    </div>
+                            
+                    <br>
+                        <input 
+                            type="text" 
+                            value="THANKYOU"
+                            name="coupon" 
+                            class="input-text red-text letter-spacing"
+                            id="couponInput">
+
+                    <button 
+                        class="copy-botton"
+                        onclick="copyCoupon();"
+                        id="alertButton"
+                    >Copy
+                    </button>
+                       
+                 
                 </div>
-        
+               
                 <hr>
         
                 <h3 class="text-center letter-spacing">Here's a screenshot from Amazon showing where you will enter the coupon code:</h3>
@@ -152,9 +149,54 @@
                 <!-- end of main container -->
             </section>
         </div>
-    
+
+        
         <script src="js/timer.js"></script>
         <script src="js/urlrotator.js"></script>
+
+        <script>
+
+             function tempAlert(msg, duration) {                 
+                // get the text field
+                let copyText = document.querySelector('#couponInput');
+          
+                copyText.select();
+                copyText.setSelectionRange(0, 99999); // for mobile devices
+
+                /* Copy the text inside the text field */
+                document.execCommand('copy');
+
+                // get the parent div
+                let div = document.querySelector('#alertWrap');
+                
+                // create a p tag to host the messege
+                var tag = document.createElement('p');
+                tag.setAttribute('id', 'copied-alert');
+                
+                // append P tag to its parent div
+                div.appendChild(tag);             
+
+                // set msg argument to the P tag
+                tag.innerHTML = msg;
+
+                // set time out to add and remove it form the UI
+                setTimeout(function(){
+                
+                // remove the P tag to the UI
+                tag.parentNode.removeChild(tag);
+                }, duration);
+
+                // add it from the UI
+                div.appendChild(tag);
+             }
+
+            // get the location of the button by its id
+            let alertButton = document.getElementById('alertButton');
+
+            // set the onClick event when clicked to display the msg for 3 seconds
+            alertButton.onclick = function(){ tempAlert("Copied!",3000); };
+        
+        </script>
     </body>
     
 </html>
