@@ -15,8 +15,8 @@ body {
   font-family: "Fira Sans", sans-serif;
   background: #ededed;
   padding: 2rem;
-  /* background-image: url(../img/back.jpg); */
-  /* background-size: 1000px;
+  /* background-image: url(../img/back.jpg);
+  background-size: 1000px;
   background-repeat: repeat;
   opacity: 0.9; */
 }
@@ -25,8 +25,7 @@ body {
   margin: 0 auto;
   width: 80%;
   background: white;
-  border-radius: 1rem;
-  position: relative;
+  border-radius: 10px;
 }
 
 .thing-text {
@@ -56,7 +55,7 @@ hr {
   display: block;
   height: 4px;
   border: 0;
-  border-top: 2px solid #0a072a;
+  border-top: 2px solid #fff;
 }
 
 p {
@@ -65,8 +64,8 @@ p {
 }
 
 .bullet-header {
-  background-color: #f6f6f8;
-  color: #0a072a;
+  background: #53d3fd;
+  color: white;
   padding: 4rem 0;
 }
 
@@ -91,38 +90,20 @@ img {
 }
 
 /* Section one */
+
 .header {
-  background-color: #f6f6f8;
+  background-color: #4d6487;
+
   border-radius: 10px 10px 0 0;
   height: auto;
-  padding: 3rem 2rem;
+  padding: 3rem 2rem 3rem 2rem;
 }
-
-.header__highlight {
-  color: #af0000;
-}
-
-.header__logo {
-  width: 16rem;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-transform: rotate(-30deg);
-  -moz-transform: rotate(-30deg);
-  -ms-transform: rotate(-30deg);
-  -o-transform: rotate(-30deg);
-  transform: rotate(-30deg);
-}
-
 #hero-img {
   margin-bottom: 3rem;
-  text-align: center;
 }
 
 .header__text {
   padding: 2rem 0;
-  color: #0a072a;
 }
 
 .hero__sub-header {
@@ -307,7 +288,7 @@ button {
   margin-top: 20px;
   padding: 0;
   font-size: 1.2rem;
-  background-color: #af0000;
+  background-color: rgb(175, 0, 0);
   border: none;
   color: white;
   font-weight: 900;
@@ -440,15 +421,17 @@ button {
 }
 
 .section-seven {
-  background-color: #f6f6f8;
-  padding: 1rem;
-  border-radius: 0 0 1rem 1rem;
-  color: #0a072a;
-  font-size: 1.2rem;
+  background-color: #494748;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.section-seven p {
+  color: #fff;
 }
 
 .section-seven a {
-  color: rgb(255, 0, 0);
+  color: rgb(24, 24, 24);
   text-decoration: none;
 }
 
@@ -587,6 +570,13 @@ button {
     font-size: 2.6rem;
     color: #3d3b3b;
     padding: 0 10px;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #fff;
   }
 
   p {

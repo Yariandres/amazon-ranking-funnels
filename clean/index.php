@@ -28,36 +28,48 @@
   <body>
     <!-- main container  -->
     <div class="container">
-    
       <!-- head section -->
       <div class="header">
-        <img src="img/logo.png" alt="Bella boom logo image" class="header__logo">
+        <hr />
         <h1 class="white-font header__text letter-spacing">
-          <span class="header__highlight">FLASH 30% Off GIVEAWAY! </span> <br />
+          FLASH 30% Off GIVEAWAY! <br />
           <span class="thing-text" id="vendor__name">
-            Get this exclusive Two Piece Bikini Set Swimsuit By Bella Boom at 30% Off!!</span
+            Get this exclusive Laundry Basket By CLEAN at 30% Off!!</span
           >
         </h1>
         <hr />
-      </div><!-- /header -->
-      
+      </div>
+      <!-- end head section -->
 
       <!-- hero section section one-->
       <div class="hero section-one">
-      <p>
-        <img
-          id="hero-img"
-          src="img/1.jpg"
-          alt="Two Piece Bikini Set By Bella Boom"      
-        />
-      </p>
-
-      <h2 class="hero__sub-header">
-        Grab This Insane Amazon.com Deal. This Week Only.
-      </h2>
-
         <div class="grid">
           <div class="col-md-6">
+            <img
+              class=""
+              id="hero-img"
+              src="img/1.jpg"
+              alt="Chef Knife By FOXEL"
+            />
+
+            <p class="hero__text letter-spacing">
+              3- All orders are placed right through Amazon, so you are assured
+              a smooth transaction. We will provide you with a private amazon
+              coupon code that allows you to grab this special deal.
+            </p>
+
+            <p class="hero__text letter-spacing">
+              4- Click the button below to have your Amazon coupon emailed to
+              you. You will be provided with step by step instructions on how to
+              grab this deal from amazon today!
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <h2 class="hero__sub-header">
+              Grab This Insane Amazon.com Deal. This Week Only.
+            </h2>
+
             <p class="hero__text letter-spacing">
               1- That's right! For a limited time, you can get this top-rated
               Amazon product at a "30% Off".
@@ -66,28 +78,10 @@
             <p class="hero__text letter-spacing">
               2- The reason this Amazon seller is offering this amazing deal is
               to celebrate the launch of their new product and to generate
-              positive word of mouth!
+              positive word of mouth!         
             </p>
 
-            <img class="" src="img/2.jpg" alt="Two Piece Bikini Set By Bella Boom" />
-
-                     
-          </div>
-
-          <div class="col-md-6 ">
-          <p class="hero__text letter-spacing">
-            3- All orders are placed right through Amazon, so you are assured a smooth transaction. We will provide you with a private amazon coupon code that allows you to grab this special deal.
-            </p>         
-            
-            <p class="hero__text letter-spacing">
-              4- Click the button below to have your Amazon coupon emailed to
-              you. You will be provided with step by step instructions on how to
-              grab this deal from amazon today!
-            </p>                       
-           
-            
-            <img class="" src="img/4.jpg" alt="Two Piece Bikini Set By Bella Boom" />            
-           
+            <img class="" src="img/2.jpg" alt="Laundry Basket By CLEAN" />
           </div>
         </div>
 
@@ -153,8 +147,8 @@
             <div class="col-sm-4">
               <div class="col">
                 <h3 class="letter-spacing">"What is this amazon product?"</h3>
-                <p>
-                Two Piece Bikini Set Swimsuits for Women. Swimsuits X Small to Large Bella Side Boob Bathing Suits for Women
+                <p>                
+                  It is durable and easy to carry laundry basket!
                 </p>
               </div>
             </div>
@@ -166,8 +160,8 @@
                 <h3 class="letter-spacing">
                   "What makes this product so special?"
                 </h3>
-                <p>                  
-                  The bikini, Bella, offers the perfect balance between style and comfort! The bikini bottoms features a thick band that lies across your hips for a stylish fold-over look. While bikini top comes with thick shoulder straps that can be adjusted for that extra support and a little exposure of the side boob for a subtle stylish look. The bikini top comes with removal padding and has an opening for inserts.
+                <p>
+                  The laundry basket is made from strong, 600D Oxford fabric with waterproof coating!
                 </p>
               </div>
             </div>
@@ -177,10 +171,10 @@
             <div class="col-sm-4">
               <div class="col">
                 <h3 class="letter-spacing">"What make this deal so good"</h3>
-                <p>
-                  Appart from your 30% discount the Two Piece Bikini SetBy
-                  Bella Boom is backed by a no-questions-asked 30 days return
-                  policy.
+                <p>                  
+                  Appart from your 30% discount the Black Laundry Basket By
+                  Clean is backed by a no-questions-asked return
+                  policy!
                 </p>
               </div>
             </div>
@@ -193,8 +187,8 @@
             <div class="col-sm-4">
               <div class="col">
                 <h3 class="letter-spacing">"What Benefits Does This Have?"</h3>
-                <p>
-                  To get a bikini that perfectly contours to your beautiful figure, we designed our bikinis Lining inside using the same a durable an 80% nylon and 20% spandex fabric blend as outside layer that hugs to your body like a second skin.      
+                <p>               
+                  Our laundry basket is perfect of how fast you can fold it and ready to take it with you wherever and whenever and can hold all as much clothes as you want! We can only imagine how easier your life will be with no more wasting time to pack your laundry basket and no more falling off clothes!
                 </p>
               </div>
             </div>
@@ -210,7 +204,7 @@
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i> <br />
-                  Incredible!!
+                  Incredible for the price
                 </p>
                 <p>
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -218,7 +212,7 @@
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i><br />
-                  Sooooo nice!!
+                  Now that’s an awesome bag!
                 </p>
 
                 <p>
@@ -235,7 +229,7 @@
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i> <br />
-                  Excellent quality !
+                  Excellent quality!
                 </p>
               </div>
             </div>
@@ -245,11 +239,11 @@
             <div class="col-sm-4">
               <div class="col">
                 <h3 class="letter-spacing">"How Does the Coupon Code Work?"</h3>
-                <p>
+                <p>                
                   You can only use the coupon code once. You will add one of
                   this item to your amazon shopping cart. When applied, the
                   coupon will allow you <b>“Buy 1 at 30% off”</b> Coupons will
-                  be limited to 1/bottle per person. If you try to reuse your
+                  be limited to 1 coupon per person. If you try to reuse your
                   unique coupon code again, it will NOT work a second time. You
                   must add 1 to your shopping cart, for this coupon code to work
                   properly.
@@ -273,25 +267,25 @@
             <div class="imgSection__gallery">
               <div class="col-md-3">
                 <div class="col">
-                  <img src="img/3.jpg" alt="Chef Knife By FOXEL" />
+                  <img src="img/3.jpg" alt="Black Laundry Basket by Clean" />
                 </div>
               </div>
 
               <div class="col-md-3">
                 <div class="col">
-                  <img src="img/5.jpg" alt="Chef Knife By FOXEL" />
+                  <img src="img/4.jpg" alt="Black Laundry Basket by Clean" />
                 </div>
               </div>
 
               <div class="col-md-3">
                 <div class="col">
-                  <img src="img/6.jpg" alt="Chef Knife By FOXEL" />
+                  <img src="img/5.jpg" alt="Black Laundry Basket by Clean" />
                 </div>
               </div>
 
               <div class="col-md-3">
                 <div class="col">
-                  <img src="img/1.jpg" alt="Chef Knife By FOXEL" />
+                  <img src="img/6.jpg" alt="Black Laundry Basket by Clean" />
                 </div>
               </div>
             </div>
@@ -307,14 +301,14 @@
           "Can You Explain How This Deal Works?"
         </h2>
 
-        <p class="letter-spacing">
+        <p class="letter-spacing">       
           Sure! This top rated Amazon vendor has just launched this product. To
           generate positive buzz, they are offering a
           <strong>"buy 1 at 30% Off"</strong>. So get one for yourself at this
           amazing one time discount.
         </p>
 
-        <p class="letter-spacing">          
+        <p class="letter-spacing">        
           The purchase is through Amazon, so you know it's legit. You will be
           provided with a special Amazon Coupon code and instructions on how to
           grab this deal. When you click the button below, you'll be prompted to
@@ -352,7 +346,7 @@
 
       <!--  img section six -->
       <div class="final-img text-center">
-        <img class="pageImgs" src="img/8.jpg" alt="Chef Knife By FOXELe" />
+        <img class="pageImgs" src="img/7.jpg" alt="Black Laundry Basket by Clean" />
       </div>
       <!-- end of img section six -->
 

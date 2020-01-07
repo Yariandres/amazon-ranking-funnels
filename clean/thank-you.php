@@ -24,12 +24,12 @@
 
     <body>
 
-<?php 
-    // -- Email capture FORM pinkyivy78@yahoo.com  --
+<?php
+    
     if (isset($_POST['email'])) {
         $from = $_POST['email'];
-        $to = 'pinkyivy78@yahoo.com';
-        $subject = 'Swimsuit Bella Boom - Sign Up';
+        $to = 'malikkhaled45@gmail.com';
+        $subject = 'Laundry Bag Sign Up - Sign Up';
         $body = 'Good new! You have a new subscription:';
     
         if (!$_POST['email']) {
@@ -46,7 +46,7 @@
         }
     } else {
            echo "email not set";
-    }    
+        }      
 ?>
 
 
@@ -62,8 +62,7 @@
             </div>
         
             <section>
-                <div class="paragraph">
-        
+                <div class="paragraph">        
                     <p class="letter-spacing">This page provides your coupon code and instructions on how to claim this Amazon.com deal. </p>
                     <p>NOTE: Due to the limited nature of this Amazon deal, the coupon provided on this page must be used before the deadline shown below:</p>
         
@@ -72,8 +71,7 @@
                     </div>
                 </div>
         
-                <hr>
-        
+                <hr>        
                 <div class="paragraph letter-spacing">
                     <h2 class="text-center red-text">Instructions &amp; Your Coupon Code:</h2>
                     <p>

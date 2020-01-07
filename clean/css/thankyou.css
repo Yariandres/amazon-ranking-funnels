@@ -112,31 +112,9 @@ img {
     font-size: 2rem;
 }
 
-
-
 #green-background {
-    background: #4CAF50;
-    text-align: center;
-    padding: 2rem;
-}
-
-.heading-text {
-    color: #fff;
-    font-size: 3rem;
-}
-
-.input-text {
-    border-radius: 1rem;
-    border: none;
-    text-align: center;
-    margin-bottom: 1rem;   
-}
-
-.copy-botton {
-    padding: 1rem;
-    margin-left: 1rem;
-    border: none;
-    border-radius: 5px;
+	background: #4CAF50;
+	
 }
 
 .yell-txt {	
@@ -145,13 +123,7 @@ img {
     color: white;
 }
 
-#copied-alert {
-    font-size: 3rem;
-    color: rgb(255, 255, 255);
-}
-
 .btn-button {
-    border: none;
     padding: 20px;
     margin-bottom: 20px;
     background: #DDC868;
