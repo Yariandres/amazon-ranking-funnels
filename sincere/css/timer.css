@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+.countdown p {
+  color: #ffffff;
+}
+
+.countdown {
+  padding: 10px 10px;
+}
+
+#demo {
+  font-family: 'Anton', sans-serif;
+  background: #363131;
+  font-weight: 400;
+  font-size: 44px;
+  width: 35%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 1px #000000;
+  -moz-box-shadow: 0px 3px 1px #000000;
+  box-shadow: 0px 3px 1px #000000; 
+}
